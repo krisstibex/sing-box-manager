@@ -8,7 +8,7 @@
 
 ### 一键脚本
 ```
-irm https://s.mikutabs.eu.org/a4kM | iex
+irm https://s.mikutabs.eu.org/XQsX | iex
 ```
 
 ## 其他
