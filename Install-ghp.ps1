@@ -17,7 +17,7 @@ $userAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTM
 
 Invoke-WebRequest -Uri "https://mirror.ghproxy.com/https://raw.githubusercontent.com/DustinWin/clash_singbox-tools/main/sing-box-release/sing-box-windows-amd64.exe" -OutFile "sing-box.exe" -ErrorAction Stop -Headers @{ "User-Agent" = $userAgent } > $null 2>&1
 Invoke-WebRequest -Uri "https://mirror.ghproxy.com/https://github.com/winsw/winsw/releases/latest/download/WinSW-x64.exe" -OutFile "sing-box-service.exe" -ErrorAction Stop -Headers @{ "User-Agent" = $userAgent } > $null 2>&1
-Invoke-WebRequest -Uri "https://mirror.ghproxy.com/https://raw.githubusercontent.com/krisstibex/sing-box-manager/main/sing-box-manager.ba" -OutFile "sing-box-manager.bat" -ErrorAction Stop -Headers @{ "User-Agent" = $userAgent } > $null 2>&1
+Invoke-WebRequest -Uri "https://mirror.ghproxy.com/https://raw.githubusercontent.com/krisstibex/sing-box-manager/main/sing-box-manager.bat" -OutFile "sing-box-manager.bat" -ErrorAction Stop -Headers @{ "User-Agent" = $userAgent } > $null 2>&1
 Invoke-WebRequest -Uri "https://mirror.ghproxy.com/https://raw.githubusercontent.com/krisstibex/sing-box-manager/main/sing-box-service.xml" -OutFile "sing-box-service.xml" -ErrorAction Stop -Headers @{ "User-Agent" = $userAgent } > $null 2>&1
 
 Write-Host "Done."
