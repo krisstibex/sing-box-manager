@@ -10,7 +10,7 @@
 ```
 irm https://s.mikutabs.eu.org/XQsX | iex
 ```
-- 或者
+- 或者(使用ghproxy加速下载)
 ```
 irm https://s.mikutabs.eu.org/pIgw | iex
 ```
