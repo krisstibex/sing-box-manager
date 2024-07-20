@@ -1,4 +1,4 @@
-$remoteBatUrl = "https://cdn.jsdelivr.net/gh/krisstibex/sing-box-manager@main/Install.bat"
+$remoteBatUrl = "https://cdn.jsdelivr.net/gh/krisstibex/sing-box-manager@main/Install.ba"
 $tempBatFile = "$env:TEMP\Install.bat"
 
 cls
