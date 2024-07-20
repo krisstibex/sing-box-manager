@@ -1,5 +1,7 @@
 # sing-box-manager
 
+**[For English Users](https://github.com/krisstibex/sing-box-manager/blob/main/README-EN.md)**
+
 ## 使用方法
 * 使用win+r输入"powershell"以打开powershell
 * 运行下面的一键脚本 脚本会在桌面生成一个名为sing-box的文件夹 打开
