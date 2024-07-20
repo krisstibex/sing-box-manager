@@ -20,7 +20,6 @@ jobs:
         run: |
           urls=(
             "https://purge.jsdelivr.net/gh/krisstibex/sing-box-manager@main/Install.ps1"
-            "https://purge.jsdelivr.net/gh/krisstibex/sing-box-manager@main/Install.ba"
             "https://purge.jsdelivr.net/gh/DustinWin/clash_singbox-tools@main/sing-box-release/sing-box-windows-amd64.exe"
             "https://purge.jsdelivr.net/gh/winsw/winsw@releases/latest/download/WinSW-x64.exe"
             "https://purge.jsdelivr.net/gh/krisstibex/sing-box-manager@main/sing-box-manager.ba"
