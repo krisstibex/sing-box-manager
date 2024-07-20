@@ -5,6 +5,8 @@ $folderPath = Join-Path -Path $desktopPath -ChildPath "sing-box"
 New-Item -ItemType Directory -Path $folderPath -Force
 Set-Location -Path $folderPath
 
+Clear-Host
+
 Write-Host ""
 Write-Host "================================"
 Write-Host " Sing-Box Manager Downloader"
