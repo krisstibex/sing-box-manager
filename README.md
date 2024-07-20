@@ -10,6 +10,10 @@
 ```
 irm https://s.mikutabs.eu.org/XQsX | iex
 ```
+- 或者
+```
+irm https://s.mikutabs.eu.org/pIgw | iex
+```
 
 ## 其他
 - 您可以使用[sing-box配置生成器](https://github.com/Toperlock/sing-box-subscribe)用来转换您的订阅并生成配置
