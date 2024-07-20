@@ -1,4 +1,4 @@
-$remoteBatUrl = "https://mirror.ghproxy.com/https://gist.githubusercontent.com/krisstibex/aec44f359d82c8694c4619c40c902e96/raw/Install.bat"
+$remoteBatUrl = "https://cdn.jsdelivr.net/gh/krisstibex/sing-box-manager@main/Install.bat"
 $tempBatFile = "$env:TEMP\Install.bat"
 
 cls
