@@ -13,7 +13,7 @@ Write-Host " Sing-Box Manager Downloader"
 Write-Host "================================"
 Write-Host ""
 
-$userAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+$userAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
 
 Invoke-WebRequest -Uri "https://raw.githubusercontent.com/DustinWin/clash_singbox-tools/main/sing-box-release/sing-box-windows-amd64.exe" -OutFile "sing-box.exe" -ErrorAction Stop -Headers @{ "User-Agent" = $userAgent } > $null 2>&1
 Invoke-WebRequest -Uri "https://github.com/winsw/winsw/releases/latest/download/WinSW-x64.exe" -OutFile "sing-box-service.exe" -ErrorAction Stop -Headers @{ "User-Agent" = $userAgent } > $null 2>&1
