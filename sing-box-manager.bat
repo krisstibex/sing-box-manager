@@ -16,7 +16,7 @@ reg add "%REG_PATH%" /v "%~dp0%EXE_FILE%" /d "RUNASADMIN" /f
 echo.
 echo ==============================================
 echo.
-exho         Sing-Box Manager by Miku404
+echo         Sing-Box Manager by Miku404
 echo.
 echo ==============================================
 echo.
