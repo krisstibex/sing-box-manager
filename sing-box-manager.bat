@@ -1,5 +1,5 @@
 @echo off
-title Sing-Box Manager by Miku404
+title Sing-Box Manager
 
 setlocal
 openfiles >nul 2>&1
