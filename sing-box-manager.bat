@@ -50,7 +50,7 @@ cls
 goto menu
 
 :panel
-start msedge "http://127.0.0.1:9090/ui"
+start "http://127.0.0.1:9090"
 echo Dashboard Opened
 timeout /t 3 /nobreak >nul
 cls
