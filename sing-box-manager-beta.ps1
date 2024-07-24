@@ -135,7 +135,7 @@ function Config-Manager {
             1 { Add-Subscription }
             2 { Download-Subscription }
             3 { break }
-            默认 { Write-Host "Invalid choice, please try again." }
+            deafult { Write-Host "Invalid choice, please try again." }
         }
     } while ($configChoice -ne 3)
 }
@@ -150,7 +150,7 @@ do {
         3 { Open-Dashboard }
         4 { Config-Manager }
         5 { break }
-        默认 { Write-Host "Invalid choice, please try again." }
+        deafult { Write-Host "Invalid choice, please try again." }
     }
 } while ($choice -ne 5)
 
