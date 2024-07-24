@@ -57,7 +57,7 @@ function Stop-Service {
 }
 
 function Open-Dashboard {
-    Start-Process "msedge" "http://127.0.0.1:9090/ui"
+    Start-Process "http://127.0.0.1:9090/ui"
     Write-Host "Dashboard Opened"
     Start-Sleep -Seconds 3
 }
