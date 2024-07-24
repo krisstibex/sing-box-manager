@@ -148,7 +148,7 @@ do {
         1 { Start-Service }
         2 { Stop-Service }
         3 { Open-Dashboard }
-        4 { Show-Config-Menu }
+        4 { Config-Manager }
         5 { break }
         默认 { Write-Host "Invalid choice, please try again." }
     }
