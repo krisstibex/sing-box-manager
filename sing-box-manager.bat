@@ -1,6 +1,14 @@
 @echo off
 title Sing-Box Manager
 
+for /f "delims=" %%i in ('chcp') do set "_codepage=%%i"
+
+if %_codepage%==65001 (
+    echo UTF-8
+) else (
+    chcp 65001 >nul
+)
+
 setlocal
 openfiles >nul 2>&1
 if %errorlevel% NEQ 0 (
